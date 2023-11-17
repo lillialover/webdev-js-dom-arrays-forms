@@ -29,7 +29,7 @@ setInterval(function(){
     document.getElementById("myImages")
     .setAttribute("src", imageAr[imageCount]);
     imageCount++;
-    if (imageCount > 5){
+    if (imageCount > imageAr.length-1){
         imageCount = 0
     }
 }, 1000)
