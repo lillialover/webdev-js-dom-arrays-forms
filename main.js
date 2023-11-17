@@ -32,4 +32,4 @@ setInterval(function(){
     if (imageCount > imageAr.length-1){
         imageCount = 0
     }
-}, 1000)
+}, 4000)
