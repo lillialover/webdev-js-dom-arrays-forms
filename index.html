@@ -11,8 +11,14 @@
       media="only screen and (min-width:720px)"
       href="css/desktop.css"
     />
+    <script> 
+      console.dir(document); 
+      function init(){ 
+        console.info(document.getElementById("myHeading").innerHTML); 
+      } 
+    </script>
   </head>
-  <body>
+  <body onLoad="init()"> 
     <div class="container">
       <header>
         <h1 id="myHeading">My Demo Site</h1>
